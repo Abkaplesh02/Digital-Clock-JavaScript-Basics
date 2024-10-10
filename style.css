@@ -1,0 +1,38 @@
+body{
+    background-color: #212121;
+    color: #fff;
+}
+
+.Navigation{
+
+    height: 20px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    margin-top: -8px;
+    width: 100vw;
+}
+
+.Navigation a{
+    background-color: #212121;
+    color: whitesmoke;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid white;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#clock{
+    font-size: 40px;
+    background-color: orange;
+    padding: 20px  50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
